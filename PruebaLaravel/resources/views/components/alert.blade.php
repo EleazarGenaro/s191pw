@@ -1,3 +1,6 @@
-<div>
-    <!-- The only way to do great work is to love what you do. - Steve Jobs -->
-</div>
+    <div class="container mt-4"> 
+
+        <div class="alert alert-{{ $tipo }}" role="alert">
+            Soy un alert {{ $slot }}
+        </div>
+    </div>
